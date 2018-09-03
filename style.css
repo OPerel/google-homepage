@@ -1,0 +1,71 @@
+body {
+    font-family: ariel, sans-serif;
+} 
+
+nav {
+    text-align: left;
+    margin: 5px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 8px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.img {
+    margin: 140px 0 0 0;
+    text-align: center;
+}
+
+#logo {
+    width: 340px;
+    height: 150px;
+}
+
+.form {
+    margin: 0 auto;
+    border: #eeecec 0.2px solid;
+    width: 600px;
+    height: 40px;
+    text-align: right;
+    vertical-align: center;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+#search {
+    width: 470px;
+    height: 40px;
+    border: none;
+}
+
+#search:focus {
+    border: none;
+}
+
+.buttons {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.buttons a {
+    padding: 10px;
+    background-color: #f2f2f2;
+    color: #857f7f;
+    text-decoration: none;
+    font-weight: bold;
+}
