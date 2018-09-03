@@ -60,12 +60,34 @@ nav ul li a:hover {
     margin: 20px;
     padding: 20px;
     text-align: center;
+    font-size: 13px;
 }
 
-.buttons a {
-    padding: 10px;
+.buttons a:link,
+.buttons a:visited {
+    margin: 3px;
+    padding: 15px;
     background-color: #f2f2f2;
     color: #857f7f;
     text-decoration: none;
     font-weight: bold;
+}
+
+.buttons a:hover {
+    border: 0.3px solid #857f7f;
+    color: #2c2b2b;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    display: block;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+#left ul {
+    float: left;
 }
