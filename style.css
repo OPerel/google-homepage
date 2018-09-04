@@ -48,7 +48,7 @@ nav ul li a:hover {
 }
 
 #login:hover {
-    cursor: initial;
+    cursor: default;
 }
 
 .img {
@@ -70,6 +70,10 @@ nav ul li a:hover {
     text-align: right;
     vertical-align: center;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+}
+
+.form:hover {
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
 }
 
 form {
@@ -127,6 +131,7 @@ form {
 .buttons a:hover {
     border: 0.2px solid #b4b4b4;
     color: #2c2b2b;
+    cursor: default;
 }
 
 .lang {
